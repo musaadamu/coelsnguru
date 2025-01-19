@@ -15,6 +15,11 @@ app.use(cookieParser());
 app.use('/api/users', userRoutes)
 app.use(notFound);
 app.use(cors());
+const cors = require('cors');
+app.use(cors({
+  origin: ['http://localhost:3000', 'your-frontend-vercel-url.vercel.app'],
+  credentials: true
+}));
 
 
 mongoose.connect("mongodb://127.0.0.1:27017/coelsNguru2025", {
