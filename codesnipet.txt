@@ -1,0 +1,10 @@
+npm creat vite@latest frontend
+npm init react-app ./ creates react app at the main folder with creating it inside another folder
+npm i -D concurrently
+"client": "npm run dev --prefix frontend" // to run the frontend folder from the root directory.
+install react-bootstrap react-icons
+
+...................................................
+Repairing corrupt files in windows and drives
+1. SFC /scannow
+2. chkdsk F:
